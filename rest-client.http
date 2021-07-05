@@ -1,0 +1,9 @@
+@host = localhost:7071
+
+### GET
+GET http://{{host}}/api/temp
+
+### POST
+POST http://{{host}}/api/temp
+
+{"id":"1","temp":15.9}
