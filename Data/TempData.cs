@@ -3,6 +3,7 @@
 namespace Data {
     public class TempData {
         public string Id { get; set; }
+        public string Name { get; set; }
         public DateTime DateTime { get; set; }
         public double Temp { get; set; }
     }
